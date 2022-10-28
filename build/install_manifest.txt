@@ -1,1 +1,0 @@
-/Users/zenopelgrims/stew/dist/stew1.0.0-Darwin-ai/bin/stew.dylib
