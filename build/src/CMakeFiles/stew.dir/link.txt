@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=10.15 -dynamiclib -Wl,-headerpad_max_install_names -static-libstdc++ -o stew.dylib -install_name stew.dylib CMakeFiles/stew.dir/stew_loader.cpp.o CMakeFiles/stew.dir/stew_imager.cpp.o   -L/Users/zenopelgrims/arnold-7.1.3.2-darwin/bin  -lai 

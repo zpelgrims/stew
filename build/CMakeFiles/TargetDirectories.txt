@@ -1,0 +1,13 @@
+/Users/zenopelgrims/stew/build/CMakeFiles/edit_cache.dir
+/Users/zenopelgrims/stew/build/CMakeFiles/rebuild_cache.dir
+/Users/zenopelgrims/stew/build/CMakeFiles/list_install_components.dir
+/Users/zenopelgrims/stew/build/CMakeFiles/install.dir
+/Users/zenopelgrims/stew/build/CMakeFiles/install/local.dir
+/Users/zenopelgrims/stew/build/CMakeFiles/install/strip.dir
+/Users/zenopelgrims/stew/build/src/CMakeFiles/stew.dir
+/Users/zenopelgrims/stew/build/src/CMakeFiles/edit_cache.dir
+/Users/zenopelgrims/stew/build/src/CMakeFiles/rebuild_cache.dir
+/Users/zenopelgrims/stew/build/src/CMakeFiles/list_install_components.dir
+/Users/zenopelgrims/stew/build/src/CMakeFiles/install.dir
+/Users/zenopelgrims/stew/build/src/CMakeFiles/install/local.dir
+/Users/zenopelgrims/stew/build/src/CMakeFiles/install/strip.dir

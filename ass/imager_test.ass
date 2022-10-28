@@ -1,0 +1,82 @@
+### exported: Tue Oct 25 13:39:13 2022
+### from:     Arnold 7.0.0.2 [24e4ddef] darwin clang-10.0.1 oiio-2.3.2 osl-1.12.0 vdb-7.1.1 clm-2.0.0.235 rlm-14.1.3 2022/01/27 20:17:22
+### host app: MtoA 5.0.0.3 e6696706 (fix-5.0.0) Maya 2020
+### render_layer: defaultRenderLayer
+### bounds: 0 0 0 0 0 0
+### user: zenopelgrims
+### meters_per_unit: 0.010000
+
+
+
+options
+{
+ AA_samples 3
+ outputs "RGBA RGBA defaultArnoldFilter/gaussian_filter defaultArnoldDriver/driver_exr.RGBA"
+ xres 960
+ yres 540
+ texture_per_file_stats on
+ texture_searchpath "/Users/zenopelgrims/Documents/maya/projects/default/sourceimages"
+ texture_automip off
+ camera "/persp/perspShape"
+ color_manager "defaultColorMgtGlobals"
+ meters_per_unit 0.00999999978
+ frame 1
+ procedural_searchpath "/Users/zenopelgrims/Documents/maya/projects/default/"
+ GI_diffuse_depth 1
+ GI_specular_depth 1
+ GI_transmission_depth 8
+ declare render_layer constant STRING
+ render_layer "defaultRenderLayer"
+}
+
+gaussian_filter
+{
+ name defaultArnoldFilter/gaussian_filter
+}
+
+driver_exr
+{
+ name defaultArnoldDriver/driver_exr.RGBA
+ input "aiImagerColorCorrect1"
+ filename "/Users/zenopelgrims/Documents/maya/projects/default/images/untitled.exr"
+ color_space ""
+}
+
+imager_color_correct
+{
+ name aiImagerColorCorrect1
+ layer_selection "RGBA"
+}
+
+color_manager_syncolor
+{
+ name defaultColorMgtGlobals
+ native_catalog_path "/Applications/Autodesk/maya/2020.4/maya2020/synColor"
+ custom_catalog_path "/Users/zenopelgrims/Library/Preferences/Autodesk/maya/synColor/Shared/"
+ rendering_color_space "scene-linear Rec 709/sRGB"
+}
+
+persp_camera
+{
+ name /persp/perspShape
+ matrix
+ 0.707106769 0 -0.707106769 0
+ -0.331294566 0.883452237 -0.331294566 0
+ 0.624695063 0.468521297 0.624695063 0
+ 28 21 28 1
+ near_clip 0.100000001
+ far_clip 10000
+ shutter_start 0
+ shutter_end 0
+ shutter_type "box"
+ rolling_shutter "off"
+ rolling_shutter_duration 0
+ motion_start 0
+ motion_end 0
+ exposure 0
+ fov 54.4322243
+ uv_remap 0 0 0 1
+ declare dcc_name constant STRING
+ dcc_name "perspShape"
+}
+
